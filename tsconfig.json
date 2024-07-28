@@ -1,0 +1,21 @@
+ 
+
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext", 
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "moduleResolution": "node"
+  },
+    "include": ["src/**/*.tsx", "src/**/*.ts", "dist/**/*.d.ts", "dist/**/*.css"]
+}

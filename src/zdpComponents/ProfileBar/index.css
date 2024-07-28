@@ -1,0 +1,12 @@
+.pim-heading {
+    background: #E6F7FE;
+    border-radius: 9999px;
+    padding: 2px 8px;
+    gap: 4px;
+    width: 126px;
+    height: 19px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #323E4D;
+}

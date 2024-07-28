@@ -1,0 +1,73 @@
+{
+  "name": "@zdp-pim/zdp-ui-kit",
+  "version": "1.0.509",
+  "description": "ZDP UI kit based on MUI components, created as of the ZDP theme.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "prepackpackage": "npm run build",
+    "packpackage": "npm pack"
+  },
+  "keywords": [
+    "Zones",
+    "UI-Kit"
+  ],
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "dist",
+    "**.css",
+    "**.png"
+  ],
+  "author": "Zones IT",
+  "license": "1.0.0",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.5",
+    "@growthbook/growthbook-react": "^0.17.0",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/lab": "^5.0.0-alpha.139",
+    "@mui/material": "^5.14.5",
+    "@mui/x-data-grid": "^6.11.1",
+    "@types/react-dom": "^18.2.6",
+    "css-loader": "^6.8.1",
+    "moment": "^2.29.4",
+     "react-infinite-scroll-component": "^6.1.0",
+    "style-loader": "^3.3.3",
+    "styled-components": "^5.3.11",
+    "tsup": "^7.1.0",
+    "typeface-montserrat": "^1.1.13",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@storybook/addon-essentials": "^7.0.26",
+    "@storybook/addon-interactions": "^7.0.26",
+    "@storybook/addon-links": "^7.0.26",
+    "@storybook/blocks": "^7.0.26",
+    "@storybook/react": "^7.0.26",
+    "@storybook/react-webpack5": "^7.0.26",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react": "^18.2.14",
+    "babel-loader": "^9.1.3",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.26",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react-router-dom": "^6.14.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
